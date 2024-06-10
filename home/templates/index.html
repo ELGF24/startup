@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+TAE ENGINEERING
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-4">
+<!-- Hero section -->
+<section class="hero mt-5">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-center title">
+                    TAE
+                </h1>
+            </div>
+            <div class="col-md-6 hero-text" >
+                <p>At TAE, we are dedicated to providing innovative and high-quality engineering solutions. From additive manufacturing to software development, our team is ready to help your business achieve its goals with efficiency and precision.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Us -->
+<section class="about-us">
+    <div class="container p-5 text-center">
+        <div class="row">
+            <div class="col">
+                <h2 class="mb-5">About Us</h2>
+                <h3 class="mb-3">Our History</h3>
+                <p>Founded in 2024, TAE has grown to become a leader in the engineering field. Our team of experts combines years of experience with a focus on innovation to provide solutions that exceed our clients' expectations.</p>
+
+                <h3 class="mb-3">Our Mission</h3>
+                <p>To deliver excellence in engineering services, driving innovation and sustainability in every project we undertake.</p>
+
+                <h3 class="mb-3">Our Team</h3>
+                <p>Meet the professionals behind TAE, a diverse group of engineers, designers, and developers committed to quality and customer service.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services -->
+<section class="services">
+    <div class="container p-5 text-center">
+        <div class="row">
+            <div class="col">
+                <h2 class="mb-5">Services</h2>
+                <h3 class="mb-3">Additive Manufacturing</h3>
+                <p>Our additive manufacturing technology enables the creation of prototypes and final parts with precision and speed. We offer 3D printing in various materials, tailored to the specific needs of each project.</p>
+
+                <h3 class="mb-3">Mechanical Design</h3>
+                <p>We provide mechanical design services ranging from initial concepts to detailed design and technical documentation. We use advanced CAD tools to ensure efficient and effective solutions.</p>
+
+                <h3 class="mb-3">Electrical Installations</h3>
+                <p>We offer comprehensive electrical installation services for residential, commercial, and industrial projects. Our team ensures all installations meet the highest standards of safety and quality.</p>
+                
+                <h3 class="mb-3">Software Development</h3>
+                <p>We develop custom software solutions that optimize processes and improve operational efficiency. From personalized applications to integrated systems, we work to meet the specific needs of our clients.</p>                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BLOG -->
+
+<section class="blog">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center mb-5">BLOG</h2>
+                <h4>Latest News and Articles</h4>
+                <p>Stay updated with the latest trends and news in the engineering field. Read our articles and discover how TAE is innovating in additive manufacturing, mechanical design, electrical installations, and software development.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center mb-5">Get in touch with us</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="nameInput" class="form-label">Name</label>
+                        <input type="text"  id="nameInput" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contextInput" class="form-label">Context</label>
+                        <input type="text"  id="contextInput" class="form-control">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ's -->
+<section class="faq">
+    <div class="container p-5 text-center">
+        <div class="row">
+            <div class="col">
+                <h2 class="mb-5">FAQ's</h2>
+
+                <h3 class="mb-3">What is additive manufacturing?</h3>
+                <p>Additive manufacturing, also known as 3D printing, is a manufacturing process where parts are created by adding material layer by layer, allowing for great flexibility in design and production.</p>
+
+                <h3 class="mb-3">How do I request mechanical design services?</h3>
+                <p>You can contact us through our contact form or call us directly to discuss the details of your project and receive a personalized quote.</p>
+
+                <h3 class="mb-3">What types of software do you develop?</h3>
+                <p>We develop a wide range of software, from mobile applications to enterprise management systems. We specialize in customized solutions tailored to the specific needs of our clients.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio -->
+<section class="portfolio">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="mb-5 text-center">Portfolio</h2>
+
+                <h3 class="mb-3">Our Projects</h3>
+                <p>Explore some of the projects we have completed for our clients across various sectors. From complex electrical installations to advanced software development, see how our experience and dedication are reflected in each job.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Online store -->
+<section class="online-store">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center mb-5">Online store</h2>
+
+                <h3 class="mb-3">Available products</h3>
+                <p>Visit our online store to purchase high-quality products related to our engineering services. From 3D printed components to specialized software, find everything you need for your projects.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+
+{% endblock %}
+
+{% block css_url %}
+    {% static 'css/index.css' %}
+{% endblock %}

@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+About Us
+{% endblock %}
+
+{% block content %}
+<style>
+    
+    .header {
+        /* background: #333; */
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    .section-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .values li {
+        background: #e4e4e4;
+        margin-bottom: 10px;
+        padding: 10px;
+        list-style: none;
+    }
+</style>
+<div class="header">
+    <h1>About Us</h1>
+</div>
+
+<div class="container mt-4">
+    <section class="section">
+        <h2 class="section-title">Welcome to Total Advanced Engineering</h2>
+        <p>At TAE, we pride ourselves on delivering cutting-edge engineering solutions that drive innovation and efficiency across various industries. Since our founding in 2024, we have been committed to excellence in every project we undertake.</p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Our History</h2>
+        <p>TAE was established with a vision to revolutionize the engineering landscape through innovation and dedication. Over the years, we have grown from a small team of passionate engineers to a renowned company known for our expertise in additive manufacturing, mechanical design, electrical installations, and software development.</p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Our Mission</h2>
+        <p>Our mission is to provide superior engineering services that exceed our clients' expectations, fostering long-term partnerships built on trust, quality, and reliability. We aim to be at the forefront of technological advancements, delivering solutions that enhance productivity and sustainability.</p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Our Vision</h2>
+        <p>To be a global leader in engineering services, continually pushing the boundaries of technology and innovation to create a better and more efficient world.</p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Our Values</h2>
+        <ul class="values">
+            <li class="li-item"><strong>Innovation</strong>: We embrace change and continually seek new ways to solve problems and improve our services.</li>
+            <li class="li-item"><strong>Quality</strong>: We are committed to maintaining the highest standards in everything we do.</li>
+            <li class="li-item"><strong>Integrity</strong>: We conduct our business with honesty and transparency.</li>
+            <li class="li-item"><strong>Customer Focus</strong>: Our clients are at the heart of our business, and we strive to meet their needs with exceptional service.</li>
+            <li class="li-item"><strong>Teamwork</strong>: We believe in the power of collaboration and work together to achieve common goals.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Our Team</h2>
+        <div class="row">
+            <div class="col-md-12 team-member">
+                <h3>Erik Gonzalez, CEO & CTO</h3>
+                <p class="team-desciption">With experience in various areas of engineering, Erik leads our company with a vision for innovation and excellence. His expertise spans</p> 
+                    <ul>
+                        <li class="li-item"><strong>Electrical installations</strong></li>
+                        <li class="li-item"><strong>Software development</strong></li>
+                        <li class="li-item"><strong>Additive manufacturing</strong></li>
+                        <li class="li-item"><strong>PLC programming</strong></li>
+                        <li class="li-item"><strong>Mechanical design</strong></li>
+                    </ul>
+                    <p>This diverse background allows him to approach projects with a comprehensive understanding of different engineering disciplines, ensuring that Erik delivers holistic and effective solutions to our clients.</p>
+            </div>
+            
+            <div class="col-md-6 team-member">
+                <h3>, Head of Mechanical Design</h3>
+                <p class="team-desciption">person's creative and analytical skills ensure our mechanical designs are both functional and innovative.</p>
+            </div>
+            <div class="col-md-6 team-member">
+                <h3>, Head of Electrical Department</h3>
+                <p class="team-desciption">person's expertise in electrical systems ensures our projects meet the highest standards of safety and efficiency.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Our Services</h2>
+        <p>We offer a comprehensive range of engineering services designed to meet the diverse needs of our clients:</p>
+        <ul>
+            <li class="li-item"><strong>Additive Manufacturing</strong>: Utilizing the latest in 3D printing technology, we create high-precision prototypes and final parts.</li>
+            <li class="li-item"><strong>Mechanical Design</strong>: From initial concepts to detailed design and technical documentation, we provide comprehensive mechanical design solutions.</li>
+            <li class="li-item"><strong>Electrical Installations</strong>: Our team delivers reliable and safe electrical installations for residential, commercial, and industrial projects.</li>
+            <li class="li-item"><strong>Software Development</strong>: We develop custom software solutions that enhance operational efficiency and streamline processes.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <ul>
+            <li class="li-item"><strong>Expertise</strong>: Our team of skilled professionals brings extensive experience and technical know-how to every project.</li>
+            <li class="li-item"><strong>Innovation</strong>: We stay ahead of industry trends and leverage the latest technologies to provide innovative solutions.</li>
+            <li class="li-item"><strong>Quality Assurance</strong>: We adhere to strict quality control processes to ensure the highest standards of workmanship.</li>
+            <li class="li-item"><strong>Customer Satisfaction</strong>: We are dedicated to exceeding our clients' expectations and building long-term relationships based on trust and satisfaction.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Get in Touch</h2>
+        <p>We invite you to learn more about how TAE can help your business achieve its engineering goals. Contact us today to discuss your project needs and discover the difference that our expertise and dedication can make.</p>
+    </section>
+</div>
+{% endblock %}
+
+{% block css_url %}
+{% static 'css/about-us.css' %}
+{% endblock %}

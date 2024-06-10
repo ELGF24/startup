@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Our Services
+{% endblock %}
+
+{% block content %}
+<style>
+    body {
+        /* font-family: Arial, sans-serif;
+        background-color: #f4f4f4; */
+    }
+    .header {
+        /* background: #333; */
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    .section-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .service-item {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .service-item h3 {
+        margin-top: 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Our Services</h1>
+</div>
+
+<div class="container mt-4">
+    <section class="section">
+        <h2 class="section-title">What We Offer</h2>
+        <p>At TAE, we provide a comprehensive range of engineering services designed to meet the diverse needs of our clients. Our team of experts is dedicated to delivering innovative solutions that enhance productivity and efficiency.</p>
+    </section>
+
+    <section class="section">
+        <div class="service-item">
+            <h3>Additive Manufacturing</h3>
+            <p>Our additive manufacturing services utilize the latest 3D printing technology to create high-precision prototypes and final parts. We offer customized solutions for various industries, ensuring accuracy and quality in every project.</p>
+        </div>
+        <div class="service-item">
+            <h3>Mechanical Design</h3>
+            <p>From initial concepts to detailed design and technical documentation, we provide comprehensive mechanical design solutions. Our team works closely with clients to ensure designs meet functional requirements and industry standards.</p>
+        </div>
+        <div class="service-item">
+            <h3>Electrical Installations</h3>
+            <p>Our electrical installation services cover residential, commercial, and industrial projects. We deliver reliable and safe installations, adhering to the highest standards of safety and efficiency.</p>
+        </div>
+        <div class="service-item">
+            <h3>Software Development</h3>
+            <p>We develop custom software solutions tailored to our clients' specific needs. Our expertise in software development helps streamline processes, enhance operational efficiency, and drive business growth.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <ul>
+            <li class="li-item"><strong>Expertise</strong>: Our team of skilled professionals brings extensive experience and technical know-how to every project.</li>
+            <li class="li-item"><strong>Innovation</strong>: We stay ahead of industry trends and leverage the latest technologies to provide innovative solutions.</li>
+            <li class="li-item"><strong>Quality Assurance</strong>: We adhere to strict quality control processes to ensure the highest standards of workmanship.</li>
+            <li class="li-item"><strong>Customer Satisfaction</strong>: We are dedicated to exceeding our clients' expectations and building long-term relationships based on trust and satisfaction.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Get in Touch</h2>
+        <p>If you have any questions or would like to learn more about our services, please feel free to contact us. We look forward to working with you and helping your business achieve its engineering goals.</p>
+    </section>
+</div>
+{% endblock %}
+
+{% block css_url %}
+    {% static 'css/services.css' %}
+{% endblock %}

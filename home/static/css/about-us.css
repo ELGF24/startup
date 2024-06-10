@@ -1,0 +1,17 @@
+* {
+    font-family: Roboto;
+}
+
+section {
+    border-bottom:  solid #D5D5D5;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.li-item {
+    font-size: 1.2rem;
+    text-align: justify;
+}
